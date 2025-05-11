@@ -17,8 +17,8 @@ from trl import SFTConfig, SFTTrainer
 from transformers import DataCollatorForSeq2Seq
 
 # ─── 0) Environment & caching ────────────────────────────────────────────────
-os.environ["HF_HOME"] = "/lustre/isaac24/proj/UTK0285/jshao2/.cache/huggingface"
-os.environ["HUGGINGFACE_HUB_CACHE"] = os.environ["HF_HOME"]
+# os.environ["HF_HOME"] = "/lustre/isaac24/proj/UTK0285/jshao2/.cache/huggingface"
+# os.environ["HUGGINGFACE_HUB_CACHE"] = os.environ["HF_HOME"]
 os.environ["HF_HUB_TOKEN"] = "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"
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
