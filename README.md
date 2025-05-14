@@ -1,6 +1,8 @@
 # DSE_FINAL
 DSE final project
 
+Detailed information in poster.
+
 Current Stage:
 - fine-tune `meta-llama/Meta-Llama-3-8B-Instruct` model for each breast cancer staging factors on 3,669 real-world pathology reports.
 - Did not include M_Classifier as I need to consult the clinician for detailed information on how to determine `M` from the reports, will add later.
